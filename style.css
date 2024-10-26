@@ -1,0 +1,107 @@
+/* Colors and fonts */
+
+body { 
+background: #E9EED9;
+color: #705C53;
+font-family: "Arima", system-ui;
+font-size: 17px;
+font-weight: lighter;
+ }
+h1,h2,h3 { 
+font-family: "Oxanium", sans-serif;
+ }
+h1 {
+color: #705C53;
+font-size: 32px;
+font-weight: lighter;
+font-family: ;
+}
+h2 {
+color: #493628;
+font-size: 24px;
+font-weight: lighter;
+font-family: "Chelsea Market", system-ui;
+}
+a {
+text-decoration: none;
+color: #A5B68D;
+}
+
+
+a:hover {
+  color: black;
+}
+
+/* Custom design with class (99% of your design)*/
+.container {
+width: 700px;
+margin: 40px auto;
+}
+
+@media (max-width: 500px) {
+    .container {
+        width: 400px;
+    }
+  }
+
+
+@media (max-width: 200px) {
+    .container {
+        width: 600px;
+    }
+  }
+
+
+
+.card-white {
+background-color: white;
+padding: 40px;
+box-shadow: 0px 10px 30px rgba(0 ,0 ,0 ,0.1);
+border-radius: 4px;
+margin: 20px 0px;
+text-align: center;
+}
+
+
+.img-circle {
+border-radius: 50%;	
+}
+
+
+.btn-blue {
+background-color: #9A7E6F;
+color: white;
+padding: 7px 10px;
+border-radius: 4px;
+}
+.list-inline {
+list-style: none;
+padding-left: 0px;
+}
+
+.list-inline li {
+display: inline;
+padding: 10px;
+}
+
+.list-inline {
+font-size: 30px;
+color: rgb(230, 230, 230);
+}
+
+
+.list-inline i: hover{
+color: black;
+}
+
+/* Design adjustments using id (1% design remaining) */
+#introduction p {
+margin-bottom: 40px;
+
+}
+
+
+
+
+
+
